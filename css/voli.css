@@ -167,3 +167,6 @@ a.button {
     margin-right: 10px;
 }
 
+#sidebar li a{
+    text-decoration: none;
+}
