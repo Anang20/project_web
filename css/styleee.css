@@ -1,0 +1,191 @@
+body{
+    background: white;
+    margin: 0;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    
+}
+
+.logo{
+    float: left;
+    width: 10%;
+
+}
+
+ img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.menu li{
+    display: inline-block;
+    font-size: 20px;
+    
+
+}
+
+.menu li a {
+    color: #000;
+    margin-left: 20px;
+    padding: 25px 0;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+.menu li a:hover{
+    color: rgb(0, 255, 136);
+}
+
+#featured-post{
+    background-image: url('../img/games.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+    padding: 100px;
+    width: 100%;
+    clear: both;
+}
+
+#featured-post .wrapper{
+    width: 500px;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+#featured-post .wrapper  a.category{
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 80px;
+}
+
+#featured-post .wrapper h2{
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin: 10;
+}
+
+a.button{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border: 1px solid #FFF;
+    padding: 10px 15px;
+    margin-top: 20px;
+    display: inline-block;
+    animation: colorRotate 6s linear 0s infinite;
+}
+
+@keyframes colorRotate{
+    0%{
+        color: aqua;
+    }
+     
+    10%{
+        color: blue;
+        opacity: 1;
+    }
+
+    50%{
+        color: rgb(92, 19, 228)
+    }
+}
+
+#content{
+   
+    width: 70%;
+    float: left;
+}
+
+#slidebar{
+   
+    width: 30%;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#slidebar h3 {
+    margin-left: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#slidebar li{
+    list-style: none;
+   font-size: 20px;
+    
+}
+
+#slidebar li a{
+    color: rgb(15, 164, 184);
+        margin-left: 200px;
+        padding:10px 0;
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+}
+
+#slidebar li a:hover{
+    color: purple;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.list-article{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+    margin-top: 20px
+}
+
+.list-article  a.category {
+    color: brown;
+    margin-top: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.list-article a.button{
+    color: rgb(0, 38, 255);
+    border-color: rgb(177, 28, 236);
+}
+
+.list-article .author {
+    margin-top: 50px;
+}
+
+.list-article .author .image-wrapper{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: red;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
