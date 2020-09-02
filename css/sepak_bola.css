@@ -133,6 +133,14 @@ a.button{
     text-transform: uppercase;
 }
 
+.nav li a {
+    text-decoration: none; 
+}
+
+.nav li {
+    list-style: none;
+}
+
 #slidebar li a:hover{
     color: purple;
 }
