@@ -6,7 +6,7 @@ body{
 .container{
     width: 1024px;
     margin: 0 auto;
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .logo{
@@ -17,7 +17,6 @@ body{
 
  img {
     display: block;
-    height: auto;
     width: 100%;
 }
 
@@ -174,3 +173,43 @@ h1 {
     vertical-align: middle;
     margin-right: 10px;
 }
+h2{
+    font-size: 1.2rem;
+    color: black;
+    letter-spacing: 2px;
+    column-span: all;
+    break-before: column;
+    }
+ h4,b{
+    color: red;
+    }
+ p {
+    line-height: 1.5;
+    }	
+ article{
+    column-width: 200px;
+    gap: 10px;
+  }
+  #content img {
+      width: 700px;
+  }
+ #sidebar {
+     float: left;
+     margin: 50;
+  }
+  #sidebar a{
+      text-decoration: none;
+      list-style: none;
+      font-size: 25px;
+      padding: 10px;
+  }
+  #sidebar li {
+      list-style: none;
+      padding: 15px;
+  }
+  #sidebar a:hover {
+      color: aqua;
+  }
+  #sidebar a:active {
+      color: red;
+  }
