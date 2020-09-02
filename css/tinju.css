@@ -6,7 +6,6 @@ body{
 .container{
     width: 1024px;
     margin: 0 auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .logo{
@@ -31,7 +30,7 @@ body{
 }
 .menu li{
     display: inline-block;
-    font-size: 15px;
+    font-size: 20px;
     
 
 }
@@ -39,10 +38,10 @@ body{
 .menu li a {
     color: #000;
     margin-left: 20px;
-    padding: 10px 0;
+    padding: 20px 0;
     display: block;
     text-decoration: none;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .menu li a:hover{
@@ -213,3 +212,6 @@ h2{
   #sidebar a:active {
       color: red;
   }
+.container #content {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
